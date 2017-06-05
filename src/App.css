@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+
+/*
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+*/
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*/////////////////////////////////////////
+
+/*
+div img: hover {
+  background:white;
+  border:solid 1px white;
+  padding:15px;
+  padding-bottom:30px;
+  width:200px;
+  height:140px;
+  margin:5px;
+}
+*/
+.Image {
+  position: absolute;
+  overflow:hidden;
+  left: 50px;
+  top: 20px;
+  width: 200px;
+  height: 200px;
+  float:left;
+}
+
+.Image img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.Image img:hover{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+.Temperature {
+  position: absolute;
+  top: 300px;
+  left: 20%;
+  font-size: 120px;
+  float:left;
+  align-content: stretch;
+  color: lightcyan;
+}
+
+.Temperature:hover {
+  color: red;
+}
+
+.WeatherDesc {
+  position: absolute;
+  top: 220px;
+  left: 50px;
+  color: ghostwhite;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.ShortInfo {
+  cursor: pointer;
+}
+
+.CityAndDate {
+  margin: 0;
+  padding: 0;
+  margin-left: 5%;
+}
+
+.GeneralInfo {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.GeneralInfo2, .GeneralInfo{
+  position: relative;
+  top: 200px;
+}
+
+.WeatherInfo {
+  height: 38em;
+  width: 100%;
+  margin-left: 7%;
+  background-color: darkslategrey;
+}
+
+.City {
+  font-size: 18px;
+  font-family: "Adobe Arabic";
+  font-style: italic;
+  text-align: right;
+  color: lightgoldenrodyellow;
+}
+
+.fields, .fields2 {
+  font-size: 25px;
+  padding: 5px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  color: lightcyan;
+}
+
+.fields2 {
+  text-align: left;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.Date {
+  font-size: 18px;
+  font-family: "Adobe Arabic";
+  font-style: italic;
+  text-align: right;
+  color: lightgoldenrodyellow;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.Field {
+  text-align: left;
+}
+
+.Description {
+  text-align: left;
+}
